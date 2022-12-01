@@ -1,46 +1,46 @@
 /* open-sans-regular - latin */
 @font-face {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local(''),
-         url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    src: local(""),
+        url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/open-sans-v34-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 /* global */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     height: 100%;
 }
 
-
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
-.container{
+.container {
     max-width: 1000px;
     width: 100%;
     margin-right: auto;
@@ -68,7 +68,7 @@ h1{
     line-height: 25px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #69B9FF;
+    color: #69b9ff;
 }
 
 .nav_list {
@@ -85,9 +85,8 @@ h1{
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #0082F3;
+    color: #0082f3;
 }
-
 
 /* main */
 .main {
@@ -95,14 +94,14 @@ h1{
 }
 
 /* hero */
-.hero{
-    background: url('../img/hero-img.png');
+.hero {
+    background: url("../img/hero-img.png");
     height: 594px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.hero-container{
+.hero-container {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -111,20 +110,18 @@ h1{
     gap: 106px;
 }
 
-.hero-title{
+.hero-title {
     font-weight: 400;
     font-size: 59px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.container
-
-.sign-up{
+.container .sign-up {
     border: none;
-    background: #69B9FF;
+    background: #69b9ff;
     border-radius: 4px;
     font-style: normal;
     font-weight: 400;
@@ -133,13 +130,13 @@ h1{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 11px 30px 13px 30px;
 }
 
-.learn-more{
+.learn-more {
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     font-style: normal;
     font-weight: 400;
@@ -148,11 +145,11 @@ h1{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 31px 12px 31px;
 }
 
-.hero-links{
+.hero-links {
     display: flex;
     gap: 20px;
 }
@@ -182,13 +179,13 @@ h1{
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #8E8E9C;
+    color: #8e8e9c;
     margin-bottom: 62px;
 }
 
 .info-list {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 20px;
 }
 
@@ -197,7 +194,7 @@ h1{
     width: 100%;
     text-align: center;
     padding: 36px 16px 23px 16px;
-    border: 1px solid #DCEBF7;
+    border: 1px solid #dcebf7;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -225,7 +222,7 @@ h1{
     font-size: 14px;
     line-height: 25px;
     text-align: center;
-    color: #6A859C;
+    color: #6a859c;
 }
 
 /* services section */
@@ -245,7 +242,7 @@ h1{
     line-height: 36px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 17px;
 }
 
@@ -255,7 +252,7 @@ h1{
     line-height: 20px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #E8E8E8;
+    color: #e8e8e8;
     margin-bottom: 62px;
 }
 
@@ -265,10 +262,11 @@ h1{
     gap: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.services-item{
+.services-item {
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -288,7 +286,7 @@ h1{
     line-height: 30px;
     letter-spacing: 7px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 23px;
 }
 
@@ -297,7 +295,7 @@ h1{
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 17px;
     max-width: 400px;
     margin-left: auto;
@@ -313,9 +311,9 @@ h1{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 10px 31px 12px 31px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     margin-right: auto;
     margin-left: auto;
@@ -345,7 +343,7 @@ h1{
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #8E8E9C;
+    color: #8e8e9c;
     margin-bottom: 60px;
 }
 
@@ -363,7 +361,7 @@ h1{
 .tab-section-button {
     padding: 1px 30px;
     border-radius: 4px;
-    background: #92A0AD;
+    background: #92a0ad;
     border: none;
     font-style: normal;
     font-weight: 400;
@@ -372,12 +370,12 @@ h1{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
 }
 
-.tab-section_active{
-    background: #2E80B6;
+.tab-section_active {
+    background: #2e80b6;
 }
 
 .tab-section-img {
@@ -404,7 +402,7 @@ h1{
     font-size: 13px;
     line-height: 25px;
     text-align: center;
-    color: #6A859C;
+    color: #6a859c;
 }
 
 /* footer */
@@ -420,7 +418,7 @@ h1{
     row-gap: 25px;
 }
 
-.footer-info-item{
+.footer-info-item {
     max-width: 320px;
     width: 100%;
 }
@@ -452,12 +450,12 @@ h1{
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: #6A859C;
+    color: #6a859c;
 }
 
 .footer-info_useful_item,
 .footer-info_social_item {
-    border-bottom: 1px solid #D5D5E0;
+    border-bottom: 1px solid #d5d5e0;
     padding-bottom: 12px;
     margin-bottom: 5px;
 }
@@ -468,10 +466,10 @@ h1{
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    color: #668CAD;
+    color: #668cad;
 }
 
-.footer-info_social_link i{
+.footer-info_social_link i {
     font-size: 18px;
     margin-right: 11px;
     color: #000;
@@ -493,5 +491,5 @@ h1{
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-    color: #9E9E9E;
+    color: #9e9e9e;
 }
